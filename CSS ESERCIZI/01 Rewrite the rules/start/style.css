@@ -1,0 +1,19 @@
+:root {
+
+    --standard-size: 500px;
+    --radius: calc(var(--standard-size)/2);
+    --default-bg-color: #c5ae00;
+    --default-ball-color: #580078;
+
+}
+
+body {
+    background-color: var(--default-bg-color);
+}
+
+.ball {
+    width: var(--standard-size);
+    height: var(--standard-size);
+    background-color: var(--default-ball-color);
+    border-radius: var(--radius);
+}
